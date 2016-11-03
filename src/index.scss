@@ -1,0 +1,17 @@
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body, h1, h2, h3 {
+  font-weight: 300
+}
+
+md-input-container {
+  min-width: 200px;
+}
+
+a:link, a:visited, a:active, a:hover {
+  color: rgb(255,64,129);
+}

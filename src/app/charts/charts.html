@@ -1,0 +1,47 @@
+<div ng-if="!$ctrl.error">
+  <md-content class="md-padding" layout-xs="column" layout="row" layout-wrap>
+    <md-card style="margin: 0px auto;">
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">Customise Charts</span>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <md-input-container>
+          <label>Type</label>
+          <md-select ng-model="$ctrl.chartType" ng-change="$ctrl.setChartOptions();">
+            <md-option ng-repeat="(key, val) in $ctrl.miscConf" ng-value="key" >
+              {{val.type}}
+            </md-option>
+          </md-select>
+        </md-input-container>
+        <md-input-container>
+          <label>Dimension (px)</label>
+          <md-select ng-model="$ctrl.dimension" ng-change="$ctrl.setChartOptions();">
+            <md-option ng-repeat="d in [450, 675, 1350]" ng-value="d" >
+              {{d}}
+            </md-option>
+          </md-select>
+        </md-input-container>
+        <md-switch-group layout="row">
+          <md-switch ng-model="$ctrl.showControls" aria-label="Show Controls" ng-change="$ctrl.setChartOptions();">
+            Show Controls
+          </md-switch>
+          <md-switch ng-model="$ctrl.showValues" aria-label="Show Values" ng-change="$ctrl.setChartOptions();">
+            Show Values
+          </md-switch>
+        </md-switch-group>
+        Animation Duration (ms): {{$ctrl.animationDuration}}
+        <md-slider-container>
+          <md-slider flex min="0" max="1500" ng-model="$ctrl.animationDuration" aria-label="red" id="animation-slider" ng-change="$ctrl.setChartOptions();">
+          </md-slider>
+        </md-slider-container>
+      </md-card-content>
+    </md-card>
+  </md-content>
+  <md-content class="md-padding" layout-xs="column" layout="row" layout-wrap>
+    <coffee-chart ng-repeat="chart in $ctrl.charts" chart="chart" options="$ctrl.options">
+    </coffee-chart>
+  </md-content>
+</div>
+<p style="text-align: center" ng-if="$ctrl.error">Whoops! Something's gone wrong and we couldn't get any coffee stats. Try refreshing the page.</p>

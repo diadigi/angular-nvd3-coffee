@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Coffee Imports (2014)",
+    "data": [
+      {
+        "key": "Green Coffee",
+        "color": "rgb(237,194,64)",
+        "values": [
+          {
+            "label" : "United States",
+            "value" : 24373.8
+          },
+          {
+            "label" : "Canada",
+            "value" : 2806.5
+          },
+          {
+            "label" : "United Kingdom",
+            "value" : 2852.7
+          }
+        ]
+      },
+      {
+        "key": "Roasted Coffee",
+        "color": "rgb(175,216,248)",
+        "values": [
+          {
+            "label" : "United States",
+            "value" : 1348
+          },
+          {
+            "label" : "Canada",
+            "value" : 1607.9
+          },
+          {
+            "label" : "United Kingdom",
+            "value" : 711
+          }
+        ]
+      },
+      {
+        "key": "Soluble Coffee",
+        "color": "rgb(203,75,75)",
+        "values": [
+          {
+            "label" : "United States",
+            "value" : 1837.2
+          },
+          {
+            "label" : "Canada",
+            "value" : 567.4
+          },
+          {
+            "label" : "United Kingdom",
+            "value" : 1332.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Total Coffee Consumption (2014)",
+    "data": [
+      {
+        "color": "rgb(82, 179, 126)",
+        "values": [
+          {
+            "label" : "United States",
+            "value" : 23800
+          },
+          {
+            "label" : "Canada",
+            "value" : 3900
+          },
+          {
+            "label" : "United Kingdom",
+            "value" : 3600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Estimated Production/Consumption Deficit",
+    "data": [
+      {
+        "color": "rgb(237,194,64)",
+        "values": [
+          {
+            "label" : "2012/13",
+            "value" : 6000
+          },
+          {
+            "label" : "2013/14",
+            "value" : 5100
+          },
+          {
+            "label" : "2014/15",
+            "value" : -2700
+          },
+          {
+            "label" : "2015/16",
+            "value" : -3300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Coffee Consumption/Production",
+    "data": [
+      {
+        "key": "Consumption",
+        "color": "rgb(237,194,64)",
+        "values": [
+          {
+            "label" : "2012/13",
+            "value" : 145400
+          },
+          {
+            "label" : "2013/14",
+            "value" : 147000
+          },
+          {
+            "label" : "2014/15",
+            "value" : 149400
+          },
+          {
+            "label" : "2015/16",
+            "value" : 151300
+          }
+        ]
+      },
+      {
+        "key": "Production",
+        "color": "rgb(82, 179, 126)",
+        "values": [
+          {
+            "label" : "2012/13",
+            "value" : 150900
+          },
+          {
+            "label" : "2013/14",
+            "value" : 152100
+          },
+          {
+            "label" : "2014/15",
+            "value" : 146600
+          },
+          {
+            "label" : "2015/16",
+            "value" : 148000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Global Coffee Production",
+    "data": [
+      {
+        "key": "Arabicas",
+        "color": "rgb(203, 75, 75)",
+        "values": [
+          {
+            "label" : "2012/13",
+            "value" : 91500
+          },
+          {
+            "label" : "2013/14",
+            "value" : 90500
+          },
+          {
+            "label" : "2014/15",
+            "value" : 85200
+          },
+          {
+            "label" : "2015/16",
+            "value" : 85800
+          }
+        ]
+      },
+      {
+        "key": "Robustas",
+        "color": "rgb(175, 216, 248)",
+        "values": [
+          {
+            "label" : "2012/13",
+            "value" : 59300
+          },
+          {
+            "label" : "2013/14",
+            "value" : 61600
+          },
+          {
+            "label" : "2014/15",
+            "value" : 61400
+          },
+          {
+            "label" : "2015/16",
+            "value" : 62200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Global Coffee Consumption",
+    "data": [
+      {
+        "key": "Coffee Exporting Countries",
+        "color": "rgb(237, 194, 64)",
+        "values": [
+          {
+            "label" : "2012/13",
+            "value" : 44400
+          },
+          {
+            "label" : "2013/14",
+            "value" : 44200
+          },
+          {
+            "label" : "2014/15",
+            "value" : 45600
+          },
+          {
+            "label" : "2015/16",
+            "value" : 46400
+          }
+        ]
+      },
+      {
+        "key": "Coffee Importing Countries",
+        "color": "rgb(82, 179, 126)",
+        "values": [
+          {
+            "label" : "2012/13",
+            "value" : 101000
+          },
+          {
+            "label" : "2013/14",
+            "value" : 102800
+          },
+          {
+            "label" : "2014/15",
+            "value" : 104000
+          },
+          {
+            "label" : "2015/16",
+            "value" : 104900
+          }
+        ]
+      }
+    ]
+  }
+]
